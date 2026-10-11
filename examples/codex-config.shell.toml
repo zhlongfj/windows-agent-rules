@@ -1,0 +1,6 @@
+# Merge into %USERPROFILE%\.codex\config.toml
+# Pin the MSI path. Do NOT use WindowsApps / Store aliases.
+# Confirm with: scripts/emit-codex-shell-path.ps1
+
+[windows]
+shell_path = 'C:\Program Files\PowerShell\7\pwsh.exe'

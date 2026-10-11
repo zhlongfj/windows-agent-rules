@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "node HOOK_PATH",
+        "failClosed": true
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "node HOOK_PATH",
+        "matcher": "Shell"
+      }
+    ]
+  }
+}
